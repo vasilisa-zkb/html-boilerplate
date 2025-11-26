@@ -1,0 +1,67 @@
+body {
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.card {
+     
+  width: 400px;
+  background: #fff;
+  margin: 5px auto;
+  text-align: left
+  /*
+  padding needed 8px.*/
+}
+
+.title {
+     font-size: 16px;
+  background: #e3f4ff;
+    margin-bottom: 10px;
+    /*margin bottom is correct 8 px tho
+    font size correct
+    padding missing 8 px*/
+}
+
+.content {
+
+  background: #e3f4ff;
+  text-align: left;
+  margin-bottom: 10px;
+  /*padding missin 16/8px*/
+}
+
+.button-container {
+  background: #e3f4ff;
+  text-align: center;
+  /*PADDING HELLO?? 8 PX
+  and text align good*/
+}
+
+button {
+     font-size: 16px;
+  background: white;
+  border: 1px solid #eee;
+  padding: 10px;
+  /*These three were added after solutions was looked at
+    since i didnt know what to add or how to go forward*/
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  /*wow you included padding. finally.
+  missing
+  margin 0 auto;
+  display: block. */
+
+}
+div {
+ padding: 10px;
+  text-align: center;
+  font-size: 16px;
+
+/*honestly i think this works aswell? so i dont have to write
+code in every single container of css. since this
+applies it to basically all?
+tested it out.
+not all fully.
+For title need to write it down and for button aswell.*/
+}
