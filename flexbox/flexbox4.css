@@ -1,0 +1,48 @@
+body {
+  
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+   
+  font-size: 36px;
+  font-weight: 900;
+  
+ margin-bottom: 32px;
+}
+
+/* do not edit this footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+}
+
+
+.container {
+  display: flex;
+    gap: 52px;
+   justify-content: center;
+    
+}
+.plants{
+    max-width: 200px;
+}
+
+/*Had the good idea of creating a xlass for each shouldve make one for all aswell tho. didnt need to edit images, put some stuff wrong but
+align was good but need to use more justify for all items. didnt know how to make max width but now i do ( for the container )
+still need to learn more and look into it aswell
+didnt need to edit text at all*/
